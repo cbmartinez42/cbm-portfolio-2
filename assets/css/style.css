@@ -1,0 +1,63 @@
+:root {
+    font-size: 62.5%
+}
+
+.hero {
+    background-image: url("../images/purple-hero2.png");
+    max-width: 100%;
+    height: 25rem!important;
+    display: block;
+}
+
+.sidebar {
+    background-color: tan;
+    background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 2rem;
+  }
+
+
+main {
+    flex: 1 0 auto;
+    margin-top: 20rem;
+}
+
+.main-body {
+    background-color: honeydew;
+    background-size: 100%;
+
+}
+
+.qc {
+    border: 1px solid black;
+    padding: 1rem!important;
+}
+
+.linked-in {
+    width: 8rem;
+}
+/* 
+.mugshot {
+    width: 10rem;
+} */
+/* .main-screenshot {
+    justify-content: center;
+} */
+
+/* .screenshot {
+    width: 45rem;
+} */
+
+.page-footer {
+    background-image: url("../images/purple-footer3.png");
+    max-width: 100%;
+    height: auto;
+}
