@@ -1,5 +1,5 @@
 :root {
-    font-size: 62.5%
+    font-size: 82.5%
 }
 
 .hero {
@@ -24,12 +24,18 @@ body {
     font-size: 2rem;
   }
 
+.sidetitle {
+    height: 80vh;
+}
 
 main {
     flex: 1 0 auto;
     margin-top: 20rem;
 }
 
+.mugshot {
+    padding: 2rem;
+}
 .main-body {
     background-color: honeydew;
     background-size: 100%;
@@ -39,6 +45,10 @@ main {
 .qc {
     border: 1px solid black;
     padding: 1rem!important;
+}
+
+.github {
+    padding: 2rem;
 }
 
 .linked-in {
