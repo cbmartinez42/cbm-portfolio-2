@@ -12,7 +12,7 @@
 .sidebar {
     background-color: tan;
     background-size: 100%;
-    min-height: 100vh;
+    min-height: 60vh;
     display: flex;
     flex-direction: column;
 }
@@ -26,6 +26,11 @@ body {
 
 .sidetitle {
     height: 80vh;
+    /* text-align: right;
+    align-self: center; */
+    border-right: 2px solid black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 main {
@@ -45,6 +50,7 @@ main {
 .qc {
     border: 1px solid black;
     padding: 1rem!important;
+    margin-bottom: 2rem;
 }
 
 .github {
@@ -58,13 +64,50 @@ main {
 .mugshot {
     width: 10rem;
 } */
-/* .main-screenshot {
-    justify-content: center;
-} */
 
-/* .screenshot {
-    width: 45rem;
-} */
+.example-text {
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(121, 118, 118, 0.5);
+    padding: 1rem;
+    top: 50%;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: ;
+}
+
+.example-text:hover {
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(121, 118, 118, 0.3);
+    padding: 1rem;
+    top: 50%;
+    left: 0%;
+    /* transform: translate(-50%, -50%); */
+    color: white;
+}
+
+.main-screenshot {
+    filter: blur(4px);
+}
+
+.main-screenshot:hover {
+    filter: blur(1px);
+    transition: 0.5s;
+}
+
+.screenshot {
+    filter: blur(4px);
+}
+
+.screenshot:hover {
+    filter: blur(1px);
+    transition: 0.5s;
+}
 
 .page-footer {
     background-image: url("../images/purple-footer3.png");
