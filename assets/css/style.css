@@ -1,56 +1,90 @@
 :root {
-    font-size: 82.5%
+    font-size: 62.5%
 }
 
+header {
+    top: 0;
+    background-color: none;
+    
+}
 .hero {
     background-image: url("../images/purple-hero2.png");
-    max-width: 100%;
+    max-width: auto;
     height: 25rem!important;
     display: block;
+    top: 0;
+    color: white;
 }
 
-.sidebar {
+.hero > h1 {
+    margin-left: 3rem;
+}
+
+.hero > ul > li > a {
+    margin-right: 3rem;
+    color: rgb(187, 183, 183);
+}
+/* .sidebar {
     background-color: tan;
     background-size: 100%;
-    min-height: 60vh;
-    display: flex;
-    flex-direction: column;
-}
+    height: 100%; */
+    /* display: block; */
+    /* flex-direction: column; */
+/* } */
 
 body {
     display: flex;
-    min-height: 100vh;
+    min-height: 100%;
     flex-direction: column;
     font-size: 2rem;
   }
 
-.sidetitle {
-    height: 80vh;
+.sidetitle-about {
+    height: 100%;
     /* text-align: right;
     align-self: center; */
     border-right: 2px solid black;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    /* background-color: tan; */
+    background-size: 100%;
 }
+
+.about-text {
+    padding-top: 4rem;
+    font-size: 2rem;
+}
+.sidetitle-work {
+    height: 100%;
+    /* text-align: right;
+    align-self: center; */
+    border-right: 2px solid black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* background-color: tan; */
+    background-size: 100%;
+}
+
 
 main {
     flex: 1 0 auto;
-    margin-top: 20rem;
+    /* margin-top: 12.3rem; */
+    
 }
 
 .mugshot {
     padding: 2rem;
 }
 .main-body {
-    background-color: honeydew;
+    background-color: rgba(245, 196, 230, 0.493);
     background-size: 100%;
-
 }
 
 .qc {
     border: 1px solid black;
     padding: 1rem!important;
-    margin-bottom: 2rem;
+    /* margin-bottom: 1rem; */
+    justify-content: center;
 }
 
 .github {
@@ -64,53 +98,117 @@ main {
 .mugshot {
     width: 10rem;
 } */
+.example-container {
+    position: relative;
+    text-align: center;
+    height: 20%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: #008CBA; */
+    /* filter: blur(4px); */
+  }
+
+.example-container:hover .overlay {
+    opacity: 1;
+    /* filter: blur(1px); */
+}
 
 .example-text {
     border-radius: 10px;
-    position: relative;
-    background-color: rgba(121, 118, 118, 0.5);
+    position: absolute;
+    background-color: rgba(90, 88, 88, 0.3);
     padding: 1rem;
     top: 50%;
-    left: 0%;
-    /* transform: translate(-50%, -50%); */
-    color: transparent;
-    width: 100%;
-    height: 100%;
-    float: left;
-    display: ;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: white;
+    width: auto;
+    height: auto;
 }
 
-.example-text:hover {
+/* .example-text:hover {
     border-radius: 10px;
-    position: relative;
+    position: absolute;
     background-color: rgba(121, 118, 118, 0.3);
     padding: 1rem;
     top: 50%;
-    left: 0%;
-    /* transform: translate(-50%, -50%); */
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-}
+}  */
 
-.main-screenshot {
-    filter: blur(4px);
+/* .main-screenshot {
+    filter: blur(2px);
+    display: block;
 }
 
 .main-screenshot:hover {
     filter: blur(1px);
-    transition: 0.5s;
+    transition: 0.5s ease;
+} */
+
+.furbabies {
+    height: 20rem;
+    width: auto;
+    border-radius: 8px;
+}
+
+div > h6 {
+    font-style: italic;
 }
 
 .screenshot {
     filter: blur(4px);
 }
 
-.screenshot:hover {
+/* .screenshot:hover {
     filter: blur(1px);
     transition: 0.5s;
-}
+} */
 
 .page-footer {
     background-image: url("../images/purple-footer3.png");
-    max-width: 100%;
-    height: auto;
+    width: auto;
+    height: 12rem;
+    /* display: block; */
+    /* position: absolute; */
+    /* bottom: 0px; */
+    /* background-size: 100%; */
+}
+
+.page-footer > .row {
+    margin-bottom: 0px!important;
+}
+
+/* .row {
+    margin-bottom: 0!important;
+} */
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
+@media only screen and (min-width: 992) {
+    html{
+        font-size: 50%;
+    }
+}
+
+@media only screen and (min-width: 0) {
+    html {
+        font-size: 40%;
+    }
 }
