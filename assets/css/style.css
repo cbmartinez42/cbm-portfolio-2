@@ -14,6 +14,7 @@ header {
     display: block;
     top: 0;
     color: white;
+    font-family: 'Russo One', sans-serif;
 }
 
 .hero > h1 {
@@ -45,6 +46,7 @@ body {
 .about-text {
     padding-top: 4rem;
     font-size: 2rem;
+    margin-left: 2rem;
 }
 
 .main {
@@ -59,6 +61,8 @@ main > div > .row {
 
 .mugshot {
     margin-top: 2rem;
+    max-height: 45rem;
+    margin-left: 6rem;
 }
 .main-body {
     background-color: rgba(233, 218, 231, 0.856);
@@ -133,16 +137,20 @@ div > h6 {
     font-style: italic;
 }
 
-.screenshot {
+.example-container .screenshot {
     filter: blur(4px);
 }
 
+.example-container:hover .screenshot {
+    filter: none;
+    transition: .5s ease;
+}
 
 .page-footer {
     background-image: url("../images/purple-footer3.png");
     width: 100%;
     height: auto;
-
+    font-family: 'Orbitron', sans-serif;
 }
 
 
