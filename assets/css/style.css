@@ -51,6 +51,10 @@ h2 {
     font-weight: bold;
 }
 
+h3 {
+    color: darkslategray;
+}
+
 .custom-row {
     margin-bottom: 0!important;
 }
@@ -176,29 +180,18 @@ div > h6 {
     height: auto;
     font-family: 'Orbitron', sans-serif;
     line-height: 2;
+    font-size: 2.25rem;
 }
 
 
-/* @media only screen and (min-width: 1200px) {
-    h2 {
-        font-size: 3.56rem;
-    }
-} */
-/* @media only screen and (min-width: 992) {
-    h2 {
-        font-size: 50%;
-    }
-}
-
-@media only screen and (min-width: 0) {
-    h2 {
-        font-size: 100%;
-    }
-} */
 
 @media screen and (max-width: 992px) {
     h2 {
         font-size: 3.56rem;
+    }
+
+    h3 {
+        color: white!important;
     }
     .hero > ul > li > a {
         font-size: 1.5rem;
@@ -211,6 +204,13 @@ div > h6 {
     .material-icons {
         display: block;
         font-size: 3rem;
+    }
+    .qc {
+        padding-left: none;
+        padding-right: none;
+    }
+    .page-footer {
+        font-size: 1.75rem;
     }
   }
   
