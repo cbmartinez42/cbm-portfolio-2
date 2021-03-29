@@ -63,7 +63,7 @@ main > div > .row {
 .mugshot {
     margin-top: 2rem;
     max-height: 45rem;
-    margin-left: 6rem;
+    margin-left: 3rem;
 }
 .main-body {
     background-color: rgba(233, 218, 231, 0.856);
@@ -86,7 +86,7 @@ main > div > .row {
 }
 
 .linked-in {
-    width: 8rem;
+    width: 10rem;
 }
 
 .example-container {
@@ -157,19 +157,19 @@ div > h6 {
 }
 
 
-@media only screen and (min-width: 1200px) {
-    html {
-        font-size: 15px;
+/* @media only screen and (min-width: 1200px) {
+    h2 {
+        font-size: 3.56rem;
     }
-}
-@media only screen and (min-width: 992) {
-    html{
+} */
+/* @media only screen and (min-width: 992) {
+    h2 {
         font-size: 50%;
     }
 }
 
 @media only screen and (min-width: 0) {
-    html {
-        font-size: 40%;
+    h2 {
+        font-size: 100%;
     }
-}
+} */
