@@ -8,11 +8,6 @@ header {
     
 }
 
-
-.material-icons {
-    display: none;
-}
-
 .hero {
     background-image: url("../images/purple-hero2.png");
     max-width: auto;
@@ -20,7 +15,7 @@ header {
     display: block;
     top: 0;
     color: white;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     line-height: 2;
 }
 
@@ -42,8 +37,12 @@ h2 {
 
 h3 {
     color: darkslategray;
+    font-size: 5rem;
 }
 
+.sidebar {
+    font-family: 'Orbitron', sans-serif;
+}
 .custom-row {
     margin-bottom: 0!important;
 }
@@ -58,10 +57,15 @@ body {
     flex-direction: column;
 }
 
+.empty-div {
+    padding: 0!important;
+}
+
 .about-text {
     padding-top: 4rem;
     font-size: 2rem;
     margin-left: 2rem;
+    padding-right: 10rem!important;
 }
 
 .main {
@@ -193,6 +197,7 @@ div > h6 {
     }
     .page-footer {
         font-size: 1.75rem;
+        height: auto;
     }
   }
   
