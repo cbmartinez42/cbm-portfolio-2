@@ -7,6 +7,16 @@ header {
     background-color: none;
     
 }
+
+nav {
+    background-color: transparent;
+    /* background-image: url("../images/purple-hero2.png"); */
+}
+
+.material-icons {
+    display: none;
+}
+
 .hero {
     background-image: url("../images/purple-hero2.png");
     max-width: auto;
@@ -17,6 +27,10 @@ header {
     font-family: 'Russo One', sans-serif;
     line-height: 2;
 }
+
+/* .parallax {
+    background-image: url("../images/purple-hero3.png");
+} */
 
 .hero > h1 {
     margin-left: 3rem;
@@ -190,17 +204,23 @@ div > h6 {
         font-size: 1.5rem;
         position: block;
     }
+    .furbabies {
+        height: 15rem;
+    }
+
+    .material-icons {
+        display: block;
+        font-size: 3rem;
+    }
   }
   
-  /* Large smartphones - navbar changes color */
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     h2 {
         font-size: 2.5rem;
     }
   }
   
-  /* Small smartphones - image placeholders change color */
-  @media screen and (max-width: 576px) {
+ @media screen and (max-width: 576px) {
     h2 {
         font-size: 1.5rem;
     }
