@@ -69,6 +69,15 @@ body {
     margin-left: 5rem;
 }
 
+.tooltip {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+.tooltip:hover {
+    cursor: pointer;
+}
+
 .main {
     flex: 1 0 auto;
     margin-bottom: 0;
