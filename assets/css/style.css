@@ -206,6 +206,10 @@ div > h6 {
         height: 15rem;
     }
 
+    .github {
+        width: 12rem;
+    }
+
     .example-text {
         font-size: 2rem;
     }
@@ -236,6 +240,10 @@ div > h6 {
         height: 10rem;
     }
   
+    .github {
+        width: 10rem;
+    }
+
     .example-text {
         font-size: 1.5rem;
     }
@@ -267,6 +275,11 @@ div > h6 {
     .main-body > .row .about-text {
         font-size: 1.5rem;
     }
+
+    .github {
+        width: 7rem;
+    }
+
     .example-text {
         font-size: 1rem;
     }
