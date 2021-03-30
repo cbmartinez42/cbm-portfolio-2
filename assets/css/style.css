@@ -222,6 +222,10 @@ div > h6 {
     h3 {
         font-size: 2.75;
     }
+
+    .furbabies {
+        height: 10rem;
+    }
   
     .example-text {
         font-size: 1.5rem;
@@ -244,7 +248,7 @@ div > h6 {
         font-size: 2.5rem;
     }
     .furbabies {
-        height: 10rem;
+        height: 7rem;
     }
 
     .hero > ul > li > a {
