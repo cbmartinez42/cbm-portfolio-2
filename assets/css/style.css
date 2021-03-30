@@ -31,7 +31,7 @@ header {
 }
 
 h2 {
-    font-size: 4.75rem;
+    font-size: 4.rem;
     font-weight: bold;
 }
 
@@ -62,10 +62,11 @@ body {
 }
 
 .main-body > .row > .about-text {
-    padding-top: 4rem;
+    padding-top: 1rem;
     font-size: 2rem;
     margin-left: 2rem;
-    padding-right: 10rem!important;
+
+    margin-left: 5rem;
 }
 
 .main {
@@ -75,6 +76,10 @@ body {
 
 main > div > .row {
     margin-bottom: 0;
+}
+
+.row-body {
+    margin: 0;
 }
 
 .mugshot {
